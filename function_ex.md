@@ -9,9 +9,11 @@ rectangle area=length*width
 If no shape is supplied then it should ask for a valid shape from given shapes,
 
 Write a function called print_pattern that takes integer number as an argument and prints following pattern if input number is 3,
+
 *
 **
 ***
+
 if input is 4 then it should print
 
 *
