@@ -13,4 +13,4 @@ else
 ```
 create cusomException named ismajor and raise it if age<18.
 
-solution()
+solution(https://github.com/Hridayansh018/Python-Exercise/blob/main/Raise_Exceptin_Finally.py)
