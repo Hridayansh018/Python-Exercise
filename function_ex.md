@@ -1,13 +1,28 @@
-Create a custom exception AdultException.
-Create a class Person with attributes name and age in it.
-Create a function get_minor_age() in the class. It throws an exception if the person is adult otherwise returns age.
-Create a function display_person() which prints the age and name of a person.
+# Exercise: Functions in python
+1. Write a function called calculate_area that takes base and height as an input and returns and area of a triangle. Equation of an area of a triangle is,
+```
+area = (1/2)*base*height
+```
 
-let us say,
+2. Modify above function to take third parameter shape type. It can be either "triangle" or "rectangle". Based on shape type it will calculate area. Equation of rectangle's area is,
+```
+rectangle area=length*width
+```
+If no shape is supplied then it should take triangle as a default shape
 
-if age>18 
-    he is major
-else
-    raise exception
+3. Write a function called print_pattern that takes integer number as an argument and prints following pattern if input number is 3,
+```
+*
+**
+***
+```
+if input is 4 then it should print
+```
+*
+**
+***
+****
+```
+Basically number of lines it prints is equal to that number. (Hint: you need to use two for loops)
 
-create cusomException named ismajor and raise it if age<18.
+[solution](https://github.com/Hridayansh018/Python-Exercise/blob/main/function_ex.py)
