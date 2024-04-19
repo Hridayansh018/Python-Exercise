@@ -14,9 +14,9 @@ if age>18
     he is major
 else
     raise exception
-
-create cusomException named ismajor and raise it if age<18.
 ```
+create cusomException named ismajor and raise it if age<18.
+
 
 
 
